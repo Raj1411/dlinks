@@ -4,7 +4,6 @@ channels:
 - conda-forge
 - ericmjl
 dependencies:
-- pip
 - base58
 - keyboard
 - oauth2client
