@@ -18,7 +18,7 @@ if file_id=='':
 else:
     # au=r"D:\Projects\Extract drive links with PyDrive\client_secrets.json"
     gauth=GoogleAuth()
-    # gauth.LocalWebserverAuth()
+    gauth.LocalWebserverAuth()
     drive=GoogleDrive(gauth)
     # keyboard.press_and_release('ctrl+w')
     per={
